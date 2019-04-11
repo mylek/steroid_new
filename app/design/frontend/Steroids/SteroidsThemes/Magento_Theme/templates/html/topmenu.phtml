@@ -1,0 +1,35 @@
+<?php
+/**
+ * Copyright © Magento, Inc. All rights reserved.
+ * See COPYING.txt for license details.
+ */
+
+// @codingStandardsIgnoreFile
+
+?>
+<?php
+/**
+ * Top menu for store
+ *
+ * @var $block \Magento\Theme\Block\Html\Topmenu
+ */
+?>
+<?php $columnsLimit = $block->getColumnsLimit() ?: 0; ?>
+<?php $_menu = $block->getHtml('level-top', 'submenu', $columnsLimit) ?>
+
+<nav class="navigation" data-action="navigation">
+    <ul data-mage-init='{"menu":{"responsive":true, "expanded":true, "position":{"my":"left top","at":"left bottom"}}}'>
+        <?= /* @escapeNotVerified */ $_menu ?>
+				<li class="level0 nav-1 category-item first last level-top ui-menu-item">
+					<a class="level-top ui-corner-all" href="<?php echo $this->getUrl('wysylka') ?>"><span>Wysyłka</span></a>
+				</li>
+				<li class="level0 nav-1 category-item first last level-top ui-menu-item">
+					<a class="level-top ui-corner-all" href="<?php echo $this->getUrl('jak_zamowic') ?>"><span>Jak zamówić</span></a>
+				</li>
+				<li class="level0 nav-1 category-item first last level-top ui-menu-item">
+					<a class="level-top ui-corner-all" href="<?php echo $this->getUrl('przykladowe_cykle') ?>"><span>Przykładowe cykle</span></a>
+				</li>
+				
+        <?= /* @escapeNotVerified */ $block->getChildHtml() ?>
+    </ul>
+</nav>
