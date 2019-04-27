@@ -191,6 +191,7 @@ return [
         'Magento_CatalogWidget' => 1,
         'Dotdigitalgroup_Email' => 1,
         'Magento_WishlistAnalytics' => 1,
+        'Mageplaza_Core' => 1,
         'Steroids_Fix' => 1,
         'Temando_Shipping' => 1,
         'Vertex_Tax' => 1
