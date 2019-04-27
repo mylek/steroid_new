@@ -1,5 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9" xmlns:content="http://www.google.com/schemas/sitemap-content/1.0" xmlns:image="http://www.google.com/schemas/sitemap-image/1.1">
-<url><loc>http://magento.local/blog</loc><changefreq>daily</changefreq><priority>1.0</priority></url>
-<url><loc>http://magento.local/blog/post/hello-world</loc><lastmod>2019-02-24T11:35:10+00:00</lastmod><changefreq>daily</changefreq><priority>0.5</priority></url>
+<url><loc>http://polskiesterydy.pl/porady</loc><changefreq>daily</changefreq><priority>1.0</priority></url>
+<url><loc>http://polskiesterydy.pl/porady/cykle-sterydowe</loc><changefreq>daily</changefreq><priority>0.8</priority></url>
+<url><loc>http://polskiesterydy.pl/porady/pierwszy-cykl-na-testosterone-enanthate-250mg-ml</loc><lastmod>2019-04-05T20:00:12+00:00</lastmod><changefreq>daily</changefreq><priority>0.5</priority></url>
+<url><loc>http://polskiesterydy.pl/porady/cykl-masowy-z-nandrolon-decanoat</loc><lastmod>2019-04-13T12:57:35+00:00</lastmod><changefreq>daily</changefreq><priority>0.5</priority></url>
+<url><loc>http://polskiesterydy.pl/porady/pierwszy-cykl-dla-osob-se-sklonnosciami-do-tycia</loc><lastmod>2019-04-13T12:57:08+00:00</lastmod><changefreq>daily</changefreq><priority>0.5</priority></url>
+<url><loc>http://polskiesterydy.pl/porady/cykl-na-krotkich-estrach-npp-i-testosteronie-propionatcie</loc><lastmod>2019-04-13T12:56:40+00:00</lastmod><changefreq>daily</changefreq><priority>0.5</priority></url>
 </urlset>

@@ -11,8 +11,7 @@
         <css src="mage/calendar.css"/>
         <script src="requirejs/require.js"/>
         <script src="mage/polyfill.js"/>
-        <link rel="stylesheet" type="text/css" src="https://fonts.googleapis.com/css?family=Open+Sans:300,300i,400,400i,600,600i,700,700i,800,800i" src_type="url" />
-    </head>
+        <link href='http://fonts.googleapis.com/css?family=Open+Sans&subset=latin-ext' rel='stylesheet' type='text/css'>    </head>
     <body>
         <referenceContainer name="after.body.start">
             <block class="Magento\Framework\View\Element\Js\Components" name="head.components" as="components" template="Magento_Theme::js/components.phtml" before="-"/>
